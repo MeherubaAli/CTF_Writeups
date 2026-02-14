@@ -3,7 +3,7 @@ CTF writeups across different platforms e.g, TryHackMe, picoCTF, etc. from absol
 
 ## Platforms
 - [picoCTF](picoCTF)  [Challenges from picoCTF's picoGYM]
-- [TryHackMe](TryHackMe)  [Beginner level challenges]
+- [TryHackMe CTFs](TryHackMe)  [Beginner level challenges]
 
 ## picoCTF
 Writeups from picoCTF's picoGYM. <br>
