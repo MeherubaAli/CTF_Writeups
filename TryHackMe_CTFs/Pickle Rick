@@ -1,0 +1,12 @@
+A Rick and Morty CTF. Help turn Rick back into a human!
+
+Level: Starters
+
+Room Overview:
+This room is about network scanning, directory busting, and some basic linux commands. 
+
+Tools Used
+- nmap
+- gobuster
+
+
