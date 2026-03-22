@@ -1,0 +1,32 @@
+# []Dev Diaries] (https://tryhackme.com/room/devdiaries)
+Hunt through online development traces to uncover what was left behind.
+
+### Level: easy
+### Tools Used:
+- Any online subdomain finder
+- Github
+- git
+
+1. `What is the subdomain where the development version of the website is hosted?` <br>
+Search online for subdomain finder and paste in the website name. <br>
+Ans: `uat-testing.marvenly.com`
+
+2. `What is the GitHub username of the developer?` <br>
+Scroll to the bottom of the website or the subdomain website. <br>
+Ans: `notvibecoder23`
+
+3. `What is the developer's email address?` <br>
+For this we need to use our terminal. We need git installed. Then copy the github repo for the `marvenly_site` url from the dev's github. Then execute these commands to get the info about the dev and the project: <br>
+`git clone https://github.com/notvibecoder23/marvenly_site` > `cd marvenly_site` > `git log`  <br>
+We can see the info about the dev here. <br>
+Ans: `freelancedevbycoder23@gmail.com`
+
+4. `What reason did the developer mention in the commit history for removing the source code?` <br>
+From the terminal we can see the reasons/Commits for each changes. <br>
+Ans: `The project was marked as abandoned due to a payment dispute`
+
+5. `What is the value of the hidden flag?` <br>
+For this, just go to the github and look into the commit history. Then look through each commit changes. We find the flag in the second commit, `Removed my signature, ready for deployment`. <br>
+Ans: `THM{g1t_h1st0ry_n3v3r_f0rg3ts}`
+
+Done! Easy peesy.
