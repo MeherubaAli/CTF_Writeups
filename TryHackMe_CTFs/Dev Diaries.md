@@ -1,4 +1,4 @@
-# []Dev Diaries] (https://tryhackme.com/room/devdiaries)
+# [Dev Diaries](https://tryhackme.com/room/devdiaries)
 Hunt through online development traces to uncover what was left behind.
 
 ### Level: easy
@@ -7,6 +7,7 @@ Hunt through online development traces to uncover what was left behind.
 - Github
 - git
 
+## Task
 1. `What is the subdomain where the development version of the website is hosted?` <br>
 Search online for subdomain finder and paste in the website name. <br>
 Ans: `uat-testing.marvenly.com`
@@ -29,4 +30,4 @@ Ans: `The project was marked as abandoned due to a payment dispute`
 For this, just go to the github and look into the commit history. Then look through each commit changes. We find the flag in the second commit, `Removed my signature, ready for deployment`. <br>
 Ans: `THM{g1t_h1st0ry_n3v3r_f0rg3ts}`
 
-Done! Easy peesy.
+We're Done! Easy Peesy.
